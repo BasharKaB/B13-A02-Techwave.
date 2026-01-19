@@ -1,13 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./tailwindcss.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+
     <title>Techwave.</title>
-</head>
-<body>
-    <head></head>
+  </head>
+  <body class="inter">
+    <header>
+      <nav class="navbar">
+        <section class="flex justify-between">
+          <img src="./assets/TechWave.png" alt="" />
+          <ol class="flex gap-8 text-base">
+            <li>About</li>
+            <li>Episodes</li>
+            <li>Host</li>
+          </ol>
+          <button class="text-base">
+            Subscribe <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </section>
+      </nav>
+      <div class="hero-container">
+        <div class="hero-circle">
+          <img class="microphone" src="./assets/microphone.png" />
+        </div>
+        <div>
+          <p class="hero-content-h1">
+            TechWave
+          </p>
+          <p class="hero-content-p">
+            Your daily dose of tech insights, productivity hacks, and personal
+            growth
+          </p>
+        </div>
+
+        <div class="flex">
+          <button class="btn-3 flex font-semibold text-base">
+            <img src="./assets/spotify.png" alt="" /> Listen on Spotify
+          </button>
+          <button class="btn-4 flex font-semibold text-base"><img src="./assets/message.png" alt=""/> Subscribe</button>
+        </div>
+      </div>
+      <div>
+        <h1>About the Podcast</h1>
+        <p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
+We break down complex topics into digestible insights, explore productivity strategies that actually work,
+and share stories of personal growth from industry leaders. <br>
+
+Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+<hr>
+<div class="box"></div>
+      </div>
+    </header>
     <main></main>
     <footer></footer>
-</body>
+  </body>
 </html>
